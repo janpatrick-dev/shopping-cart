@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+h1, h2, h3, h4, h5, h6,
+p,
+a {
+  color: black;
+}
+
+a, p {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 1rem 3rem;
+
+  background-color: orange;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}

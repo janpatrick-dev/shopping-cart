@@ -1,0 +1,18 @@
+.header {
+  padding: 1.5rem 5rem;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  font-size: 3rem;
+}
+
+.header > nav > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}

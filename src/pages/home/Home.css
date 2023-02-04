@@ -1,0 +1,52 @@
+.home-page {
+  color: white;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-content {
+  width: 100%;
+  align-self: center;
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+}
+
+.home-content-left {
+  flex: 1;
+  background-color: black;
+  padding: 0 10rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.home-content-left h1 {
+  font-size: 6rem;
+  color: white;
+}
+
+.home-content-left p {
+  font-size: 3rem;
+  color: white;
+}
+
+.home-content-right {
+  flex: 3;
+
+  background-image: url('../../images/hero-img.jpg');
+  background-size: cover;
+  background-position: top;
+}
+
+.hero-img {
+  height: auto;
+  width: 500px;
+}
